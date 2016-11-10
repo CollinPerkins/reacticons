@@ -1,0 +1,33 @@
+{
+  "name": "react_ionicons",
+  "version": "1.0.0",
+  "description": "React wrapper for Ionicons",
+  "main": "App.js",
+  "scripts": {
+    "build": "webpack --progress --colors --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Collin Perkins, Kwame Adjei",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-tools": "^0.13.3"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "ionicons": "^3.0.0",
+    "path": "^0.12.7",
+    "webpack": "^1.13.2"
+  }
+}
