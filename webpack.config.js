@@ -3,27 +3,26 @@ const path = require('path');
 
 var config = {
    entry: {
-      // app: './ExamplesIonicons3/App.jsx'
-      reacticons: './reacticons/reacticonsControl.component.jsx'
+      reacticons: './reacticons/reacticons.control.jsx'
     },
 
    output: {
       path:'./dist',
       filename: '[name].js',
    },
-   plugins: [
-     new webpack.optimize.UglifyJsPlugin({
-       debug: true,
-       minimize: true,
-       sourceMap: false,
-       output: {
-         comments: false
-       },
-       compressor: {
-         warnings: false
-       }
-     })
-   ],
+  //  plugins: [
+  //    new webpack.optimize.UglifyJsPlugin({
+  //      debug: true,
+  //      minimize: true,
+  //      sourceMap: false,
+  //      output: {
+  //        comments: false
+  //      },
+  //      compressor: {
+  //        warnings: false
+  //      }
+  //    })
+  //  ],
    module: {
       loaders: [
          {
